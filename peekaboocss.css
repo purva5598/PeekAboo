@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+h1{
+  font-family: 'Square Peg', cursive;
+  font-size: 80px;
+}
+.peek{
+  padding:50px;
+}
+.emoji{
+  cursor: pointer;
+  user-select:none;
+}
+
+.close{
+  display:none;
+}
+.open{
+  display:none;
+}
+.active{
+  display:block;
+}
